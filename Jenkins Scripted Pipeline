@@ -4,7 +4,7 @@ node {
         def servers = ["192.168.1.72","192.168.1.73"]
         try {
         stage('Preparation') { // for display purposes Get some code from a GitHub repository
-            git 'https://github.com/vipin-k/spring-framework-petclinic.git'
+            git 'git 'https://github.com/pjakku/spring-framework-petclinic.git'
             // Get the Maven tool.
             // ** NOTE: This 'M3' Maven tool must be configured
             // **       in the global configuration.   
